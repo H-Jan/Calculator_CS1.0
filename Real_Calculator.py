@@ -35,6 +35,15 @@ print("Solution: ", number1, "percent of", number2, "equals", percentage)
 # To define this operation, we simply divide number1 by 100, and multiply the result by number2, which is done in order through the order of operations using parethesis
 # Then, to make it easier for our user, we are printing the string "Solution" followed by the number, another string defining the percentage we took, and the result
 
+print("Power Function")
+power = pow(number1, number2)
+print("Solution: ", number1, "to the power of", number2, "equals", power)
+#In this sequence of code, we are first printing the "Power Function" string to indicate to the user what operation is being performed
+#Them we are defining power as a mathematical operation involving our two float variables
+#Lastly, we are implementing a string statement in the print function to return to the user a clear and concise manner of what is being done
+# We are as well implementing our defined power sequence
+
+
 
 
 
