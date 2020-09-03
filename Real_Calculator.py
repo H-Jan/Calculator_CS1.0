@@ -28,7 +28,7 @@ print("Solution: ", number1 / number2)
 # We are also outputting the string "Solution" followed by the operation itself to yield both the answer and direct the user to the answer
 
 print("Remainder")
-remainder = fmod(number1, number2)
+remainder = (number1 % number2)
 print("The remainder of ", number1, " divided by ", number2, " is ", remainder)
 # This sequence of code it first returning a string called "Remainder" to demonstrate to the user the operation made
 # It is taking the float variables and inputting them into the built-in operation fmod which is defined under the string "remainder"
@@ -51,7 +51,7 @@ print("Solution: ", number1, " to the power of ", number2, " equals ", power)
 # We are as well implementing our defined power sequence
 
 print("Average")
-avergage = ((number1 + number2) / 2)
+average = ((number1 + number2) / 2)
 print("Solution: The average of ", number1, " and ", number2, " is ", average)
 # In this sequence, we are printing the string "Average" to indicate to the user what operation is being performed
 # We are then taking out defined float variables and inputting them into the average formula used
